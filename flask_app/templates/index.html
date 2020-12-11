@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Recommender</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="./static/css/styles_input.css">
+</head>     
+<body>
+    <br><br><br>
+    <h2>Please, rate three movies of your choice from our collection:</h2>
+    <br><br>
+    <!--Make sure the form has the autocomplete function switched off:-->
+        <form class="form-inline" autocomplete="off" action="/recommend">
+            <div class="autocomplete" style="width:300px;">
+                <input id="myInput1" type="text" name="movie1" placeholder="Movie Title">
+                <select name="rating1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div class="autocomplete" style="width:300px;">
+                <input id="myInput2" type="text" name="movie2" placeholder="Movie Title">
+                <select name="rating2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div class="autocomplete" style="width:300px;">
+                <input id="myInput3" type="text" name="movie3" placeholder="Movie Title">
+                <select name="rating3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+
+    <script src="./static/js/script_input.js"></script>
+
+</body >
+</html >

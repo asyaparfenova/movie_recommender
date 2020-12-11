@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/styles_recommend.css">
+</head>
+<body>
+    <!--Most we care about is the body-->
+    </br></br>
+    <h2>We recommend you to watch:</h2>
+    </br></br>
+    <div class="recommendations style="width:300px;">
+        <ul>
+            <li>{{ results[0] }}</li>
+            <li>{{ results[1] }}</li>
+            <li>{{ results[2] }}</li>
+            <li>{{ results[3] }}</li>
+            <li>{{ results[4] }}</li>
+        </ul>
+    </div>
+    </br></br></br></br></br></br></br></br></br>
+    <form class="inner-link" method="get" action="/index">
+        <button type="submit">Go back to home page</button>
+    </form>
+
+</body>
+</html>

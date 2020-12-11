@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+    color: rgb(255,255,255);
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1598389802195-16be0d83ab82?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 100;
+}
+
+.form-inline {
+    display: flex;
+    position: absolute;
+    right: 290px;
+    flex-flow: row wrap;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.form-inline input {
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: slategray;
+  border: 1px solid #ddd;
+  color: slategray;
+}
+
+.form-inline select {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: slategray;
+  border: 1px solid #ddd;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    width: inherit;
+    /*position the autocomplete items to be the same width as the container:*/
+}
