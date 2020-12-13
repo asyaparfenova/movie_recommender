@@ -25,5 +25,8 @@ Student project at SPICED Academy Bootcamp: Building a movie recommender with a 
 For this project I used:
 - flask web-application framework for backend
 - html, css and javascript for backend
-- for autocompletion form I used slightly modified code from [w3scool Lesson](https://www.w3schools.com/howto/howto_js_autocomplete.asp?fbclid=IwAR1FcWSdj9JA7dfCT6pJFAN05ZKD__FJZos3aL5KV6X-jDDE-l_b8k-Wd34)
+- as the 'visual' base I used [Bootstrap] css-templates
+- for autocompletion form I used slightly modified code from [this w3scool Lesson](https://www.w3schools.com/howto/howto_js_autocomplete.asp?fbclid=IwAR1FcWSdj9JA7dfCT6pJFAN05ZKD__FJZos3aL5KV6X-jDDE-l_b8k-Wd34).
+
+### The project is still in progress
 
